@@ -35,7 +35,7 @@ limit_size = 200
 if translator_model == 'gpt-4':
     limit_size = 20
 
-just_evalueate = True
+just_evalueate = False
 client = OpenAI(
     api_key=api_key,
 )
