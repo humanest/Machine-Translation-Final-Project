@@ -11,7 +11,7 @@ from bleurt import score
 from numpy import mean, var, argmin
 
 
-api_key = "You API key"
+api_key = "Your API key"
 data_folder = "data"
 output_folder = "output"
 batch_size = 1
