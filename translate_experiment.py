@@ -18,13 +18,13 @@ batch_size = 1
 
 translate_num = 1000
 example_num = 0
-#dataset_name = 'zh-en'
+dataset_name = 'zh-en'
 #dataset_name = 'de-en'
-dataset_name = 'ja-en'
-#translator_model = 'gpt-3.5-turbo'
+#dataset_name = 'ja-en'
+translator_model = 'gpt-3.5-turbo'
 #translator_model = 'gpt-4'
 #translator_model = 'facebook'
-translator_model = 'google'
+#translator_model = 'google'
 surfix = ''
 if batch_size > 1:
     surfix += '-batch-{}'.format(batch_size)
